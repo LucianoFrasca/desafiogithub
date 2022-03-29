@@ -1,0 +1,15 @@
+@import "variables";
+@import "header";
+@import "cajas";
+@import "main";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $colorDeFondo;
+    background: $degradado;
+}

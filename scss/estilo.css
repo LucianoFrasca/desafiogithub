@@ -1,0 +1,78 @@
+header h1 {
+  color: crimson;
+  text-align: center;
+}
+
+.caja {
+  background-color: aliceblue;
+  border: solid red;
+}
+
+.caja h2 {
+  color: crimson;
+}
+
+.caja p {
+  color: #ff0303;
+}
+
+.uno:hover {
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+
+.dos:hover {
+  -webkit-transform: translate(10px, 20px);
+          transform: translate(10px, 20px);
+}
+
+.tres:hover {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
+
+.cuatro:hover {
+  -webkit-transform: rotateY(40deg);
+          transform: rotateY(40deg);
+}
+
+.cinco:hover {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+.seis:hover {
+  -webkit-transform: scale(20deg);
+          transform: scale(20deg);
+}
+
+.container {
+  background-color: black;
+  width: 90%;
+  height: 80vh;
+  border: solid #ff0303;
+  text-align: center;
+  margin: 20px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, color-stop(9%, #020024), color-stop(33%, #a2a2aa), color-stop(61%, #9da3ad), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 9%, #a2a2aa 33%, #9da3ad 61%, #00d4ff 100%);
+}
+/*# sourceMappingURL=estilo.css.map */

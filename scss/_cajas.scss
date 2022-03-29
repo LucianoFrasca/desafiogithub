@@ -1,0 +1,34 @@
+.caja{
+    background-color: aliceblue;
+    border: solid red;
+    h2{
+        color: $h2;
+    }
+    p{
+        color: $texto;
+    }
+}
+
+.uno:hover{
+    transform: rotate(50deg);
+}
+
+.dos:hover{
+    transform: translate(10px, 20px);
+}
+
+.tres:hover{
+    transform: skew(20deg);
+}
+
+.cuatro:hover{
+    transform: rotateY(40deg);
+}
+
+.cinco:hover{
+    transform: translateX(-20px);
+}
+
+.seis:hover{
+    transform: scale(20deg);
+}
